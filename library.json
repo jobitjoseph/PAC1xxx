@@ -1,0 +1,28 @@
+{
+  "name": "PAC1xxx",
+  "version": "1.0.0",
+  "description": "Arduino library for Microchip PAC1711, PAC1721, PAC1761, PAC1811, PAC1821 and PAC1861 power monitors. Measures bus voltage, current, power, energy and charge over I2C, detects the connected part automatically, and exposes the limit and alert registers. Based on the PAC1711 C HAL published by Microchip Technology Inc.",
+  "keywords": "pac1711, pac1721, pac1761, pac1811, pac1821, pac1861, power, current, energy, coulomb-counter, i2c, microchip",
+  "authors": [
+    {
+      "name": "Jobit Joseph",
+      "email": "jobitjoseph1@gmail.com",
+      "url": "https://github.com/jobitjoseph",
+      "maintainer": true
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jobitjoseph/PAC1xxx.git"
+  },
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "headers": "PAC1xxx.h",
+  "dependencies": [
+    {
+      "name": "Wire",
+      "frameworks": "arduino"
+    }
+  ]
+}

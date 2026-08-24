@@ -1,0 +1,111 @@
+#######################################
+# Syntax Coloring Map For PAC1xxx
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+PAC1xxx	KEYWORD1
+PAC1xxxSampleMode	KEYWORD1
+PAC1xxxPolarity	KEYWORD1
+PAC1xxxAccumulate	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+isInitialized	KEYWORD2
+setShuntMilliOhms	KEYWORD2
+setShuntMicroOhms	KEYWORD2
+shuntMilliOhms	KEYWORD2
+useRepeatedStart	KEYWORD2
+productID	KEYWORD2
+manufacturerID	KEYWORD2
+revisionID	KEYWORD2
+partName	KEYWORD2
+has16BitADC	KEYWORD2
+busFullScale_mV	KEYWORD2
+refresh	KEYWORD2
+refreshV	KEYWORD2
+refreshG	KEYWORD2
+setAutoRefresh	KEYWORD2
+autoRefresh	KEYWORD2
+busVoltage	KEYWORD2
+busVoltage_mV	KEYWORD2
+busVoltageAverage	KEYWORD2
+busVoltageMin	KEYWORD2
+busVoltageMax	KEYWORD2
+shuntVoltage_mV	KEYWORD2
+shuntVoltageAverage_mV	KEYWORD2
+current	KEYWORD2
+current_mA	KEYWORD2
+currentAverage	KEYWORD2
+currentMin	KEYWORD2
+currentMax	KEYWORD2
+power	KEYWORD2
+power_mW	KEYWORD2
+powerMin	KEYWORD2
+powerMax	KEYWORD2
+energy_mWh	KEYWORD2
+charge_mAs	KEYWORD2
+charge_mAh	KEYWORD2
+accumulatorCount	KEYWORD2
+setAccumulateMode	KEYWORD2
+setSampleMode	KEYWORD2
+setSampleModeRaw	KEYWORD2
+sampleRate	KEYWORD2
+setAverageCode	KEYWORD2
+averageCode	KEYWORD2
+setAdaptiveAccumulation	KEYWORD2
+setPolarity	KEYWORD2
+setBipolar	KEYWORD2
+setOverCurrentLimit	KEYWORD2
+setUnderCurrentLimit	KEYWORD2
+setOverVoltageLimit	KEYWORD2
+setUnderVoltageLimit	KEYWORD2
+setOverPowerLimit	KEYWORD2
+overCurrentLimit	KEYWORD2
+underCurrentLimit	KEYWORD2
+overVoltageLimit	KEYWORD2
+underVoltageLimit	KEYWORD2
+overPowerLimit	KEYWORD2
+getAlertStatus	KEYWORD2
+setAlertEnable	KEYWORD2
+getAlertEnable	KEYWORD2
+anyAlert	KEYWORD2
+setSyncMode	KEYWORD2
+syncMode	KEYWORD2
+task	KEYWORD2
+busy	KEYWORD2
+abort	KEYWORD2
+eventStatus	KEYWORD2
+onEvent	KEYWORD2
+lastError	KEYWORD2
+lastErrorString	KEYWORD2
+hal	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+PAC1XXX_DEFAULT_ADDRESS	LITERAL1
+PAC1XXX_DEFAULT_SHUNT_uOHM	LITERAL1
+PAC1XXX_VERSION	LITERAL1
+PAC1XXX_SAMPLE_8192SPS	LITERAL1
+PAC1XXX_SAMPLE_4096SPS	LITERAL1
+PAC1XXX_SAMPLE_1024SPS	LITERAL1
+PAC1XXX_SAMPLE_256SPS	LITERAL1
+PAC1XXX_SAMPLE_64SPS	LITERAL1
+PAC1XXX_SAMPLE_8SPS	LITERAL1
+PAC1XXX_SAMPLE_SINGLE_SHOT	LITERAL1
+PAC1XXX_SAMPLE_VBUS_16384SPS	LITERAL1
+PAC1XXX_SAMPLE_VSENSE_16384SPS	LITERAL1
+PAC1XXX_SAMPLE_SLEEP	LITERAL1
+PAC1XXX_UNIPOLAR	LITERAL1
+PAC1XXX_BIPOLAR	LITERAL1
+PAC1XXX_BIPOLAR_HALF	LITERAL1
+PAC1XXX_ACC_POWER	LITERAL1
+PAC1XXX_ACC_SENSE	LITERAL1
+PAC1XXX_ACC_BUS	LITERAL1
