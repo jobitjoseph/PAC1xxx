@@ -3,6 +3,11 @@
 Arduino library for the Microchip PAC1xxx family of single-channel I²C power monitors.
 
 These parts measure bus voltage and the drop across a sense resistor, compute power in hardware, and accumulate energy or charge across every sample taken. That last part is the reason to reach for one instead of an ADC and a loop: the accumulator sums *all* samples, so a load transient between two of your reads still shows up in the energy total.
+<p align="center">
+  <a href="https://www.paypal.com/paypalme/jobitjoseph">
+    <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Donate with PayPal" />
+  </a>
+</p>
 
 [![Arduino Lint](https://img.shields.io/badge/arduino--lint-passing-brightgreen)](https://github.com/arduino/arduino-lint)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
